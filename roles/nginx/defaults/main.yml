@@ -4,6 +4,7 @@ nginx_logs_dir : /var/log/nginx
 nginx_error_pages_dir : /usr/share/nginx/error_pages
 nginx_ssl_dir : /etc/nginx/ssl
 nginx_doc_root : /usr/share/nginx/html
+
 default_index : /root/ansible-playbooks/inventory/template-env/files/nginx/index.html
 error_page_404 : /root/ansible-playbooks/inventory/template-env/files/nginx/error-page-404.html
 error_page_50x : /root/ansible-playbooks/inventory/template-env/files/nginx/error-page-50x.html
